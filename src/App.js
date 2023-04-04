@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import logo from './logo.svg'
 
 function App() {
+        const badly_fromatted = 'test';
+        badly_formatted = 3
+         
   return (
     <div className="App">
       <header className="App-header">
@@ -23,3 +27,4 @@ function App() {
 }
 
 export default App;
+
