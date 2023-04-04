@@ -15,9 +15,3 @@ jobs:
           source_ref: ${{ github.ref }}
           target_branch: 'main'
           commit_message_template: '[Automated] Merged {source_ref} into target {target_branch}'
-variables:
-  - name: amount_of_apples
-    value: 5
-  - name: name
-    value: 'Daniel'
-
